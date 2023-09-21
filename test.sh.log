@@ -1,0 +1,790 @@
+Running test with user vboxuser
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/aesd-assignments/assignment-autotest/test/assignment1 ~/Desktop/aesd-assignments
+~/Desktop/aesd-assignments/finder-app ~/Desktop/aesd-assignments/assignment-autotest/test/assignment1 ~/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili6.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili9.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili10.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili1.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili5.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili2.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili7.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili8.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili3.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili4.txt': Permission denied
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/dQM8p8USL7EZgxRgWRqVXzwlbg833O1g
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user vboxuser
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/aesd-assignments/assignment-autotest/test/assignment1 ~/Desktop/aesd-assignments
+~/Desktop/aesd-assignments/finder-app ~/Desktop/aesd-assignments/assignment-autotest/test/assignment1 ~/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili6.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili9.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili10.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili1.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili5.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili2.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili7.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili8.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili3.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili4.txt': Permission denied
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/sdCFquHGHHL2zGYn6f4fwvUEYxnOXDap
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user vboxuser
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/aesd-assignments/assignment-autotest/test/assignment1 ~/Desktop/aesd-assignments
+~/Desktop/aesd-assignments/finder-app ~/Desktop/aesd-assignments/assignment-autotest/test/assignment1 ~/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili6.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili9.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili10.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili1.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili5.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili2.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili7.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili8.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili3.txt': Permission denied
+rm: cannot remove '/tmp/aeld-data/iverimefarishvili4.txt': Permission denied
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/WvcOhck4M3xmniuGvDTUIzcctdKE3jgY
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user vboxuser
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/aesd-assignments/assignment-autotest/test/assignment1 ~/Desktop/aesd-assignments
+~/Desktop/aesd-assignments/finder-app ~/Desktop/aesd-assignments/assignment-autotest/test/assignment1 ~/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/K552OQw7GazX1z95gqFlyxQkGGztLrZq
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user root
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+/home/vboxuser/Desktop/aesd-assignments/finder-app /home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/5wiMimSpuUjzaoCuqURBCFMYv8EvWqWR
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user root
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+/home/vboxuser/Desktop/aesd-assignments/finder-app /home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/Rh2Vf39ZnTxB6oddIEu6lmA4Ud3jHngJ
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user root
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+/home/vboxuser/Desktop/aesd-assignments/finder-app /home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/EbRctR1lnkMkLdH18HFEA0zVmPA2eZtb
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user root
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+/home/vboxuser/Desktop/aesd-assignments/finder-app /home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/fq6g3A0ynpa5FzdXaxKT6r9sJjmP6qXS
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user root
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+/home/vboxuser/Desktop/aesd-assignments/finder-app /home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/r6XS9B5lqoJTgTp587npGeeyx2nEs2ZK
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user root
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+/home/vboxuser/Desktop/aesd-assignments/finder-app /home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/VI0Y69pXzQXT76wjtIvDMyuLn6p1toQi
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user root
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+/home/vboxuser/Desktop/aesd-assignments/finder-app /home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/Bf1J3f9LS5PglzsBM3DHyyAz6sGbRyNQ
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user root
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+/home/vboxuser/Desktop/aesd-assignments/finder-app /home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/WbNOuEd6umJ0fyCE8PWWU1hQOcwPNj8i
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user root
+-- Generating ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Desktop/aesd-assignments/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read iverimefarishvili from conf/username.txt
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+/home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+/home/vboxuser/Desktop/aesd-assignments/finder-app /home/vboxuser/Desktop/aesd-assignments/assignment-autotest/test/assignment1 /home/vboxuser/Desktop/aesd-assignments
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/acS7q0GTUAeeXpnkjFD8ezphH2JbIwdZ
+./finder-test.sh: 57: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
